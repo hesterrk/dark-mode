@@ -1,5 +1,4 @@
-import React from 'react';
-
+import { useState } from 'react';
 
 //Change to use with useLocalStorage
 //Import localstorage hook into here 
