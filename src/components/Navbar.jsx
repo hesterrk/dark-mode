@@ -5,8 +5,9 @@ import { useDarkMode } from './hooks/useDarkMode';
 
 const Navbar = () => {
 
-
-  const [darkMode, setDarkMode] = useDarkMode('dark')
+  //'dark' is the key (stored in local storage)
+  
+  const [darkMode, setDarkMode] = useDarkMode('dark', false)
 
 
   const toggleDarkMode = e => {

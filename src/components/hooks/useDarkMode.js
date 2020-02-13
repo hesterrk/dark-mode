@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 
 export const useDarkMode = (key, initialValue) => {
 
-//our key is named: 'dark' 
+//our key is named: 'dark': 
 
     const [darkMode, setDarkMode] = useLocalStorage(key, initialValue);
 
