@@ -10,6 +10,9 @@ import "./styles.scss";
 const App = () => {
   const [coinData, setCoinData] = useState([]);
 
+
+
+
   useEffect(() => {
     axios
       .get(
